@@ -1,0 +1,21 @@
+.input {
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  width: 200px;
+  transition: width 0.35s ease-in-out;
+}
+
+.input:focus {
+  width: 400px;
+  transition: width 0.35s ease-in-out;
+  background-color: rgb(235, 61, 127);
+  outline: none;
+  box-shadow: 7px 7px 50px 30px rgba(194, 122, 230, 1);
+}
+
+.form {
+  margin: 25px;
+}
